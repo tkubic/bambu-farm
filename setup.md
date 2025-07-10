@@ -67,7 +67,7 @@ mkdir -p ~/bambu-dashboard && cd ~/bambu-dashboard
 
 # Download runner JAR
 echo "📦 Downloading runner..."
-curl -s https://api.github.com/repos/tkubic/bambu-farm/releases/latest \
+curl -s https://api.github.com/repos/TFyre/bambu-farm/releases/latest \
 | grep browser_download_url \
 | grep runner.jar \
 | cut -d '"' -f 4 \
