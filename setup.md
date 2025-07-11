@@ -39,9 +39,17 @@ ssh woodward@bambu-pi.local
 
 ```bash
 curl -fsSL https://get.docker.com -o get-docker.sh
+```
+```bash
 sudo sh get-docker.sh
+```
+```bash
 sudo usermod -aG docker woodward
+```
+```bash
 newgrp docker
+```
+```bash
 sudo apt update && sudo apt install docker-compose -y
 ```
 
@@ -224,6 +232,7 @@ docker-compose up -d
 
 echo "✅ Setup complete! Visit: http://bambu-pi.local:8080"
 EOF
+```
 
 ### 🚀 Run the Installer
 
