@@ -93,6 +93,7 @@ bambu.use-bouncy-castle=true
 bambu.users.admin.password=admin
 bambu.users.admin.role=admin
 bambu.auto-login=true
+bambu.dark-mode=false
 EOL
 
 # Initialize mediamtx config
